@@ -1,0 +1,20 @@
+.cardfulldivhome{
+    display: flex;
+    justify-content: center;
+}
+.inputhomecard{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    outline:none;
+    
+}
+.carddivhome{
+    width: 40%;
+    
+}
+@media only screen and (max-width:600px)  {
+.carddivhome{
+    width: 80%;
+}    
+}

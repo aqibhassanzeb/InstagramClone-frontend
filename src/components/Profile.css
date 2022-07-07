@@ -1,0 +1,28 @@
+.imagedivprofile{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+.postsfollowersdivprofile{
+    display: flex;
+}
+.namepostdivprofile{
+    margin-top: 50px;
+}
+@media only screen and (max-width: 576px) {
+    .imagedivprofile{
+        display: flex;
+        justify-content: center;
+    }  
+    .namepostdivprofile{
+       text-align: center;
+       margin-top: 10px;
+    }
+    .postsfollowersdivprofile{
+        display: flex;
+        justify-content: center;  
+    }
+    .imagedivprofile{
+        padding-right: 0px;
+    }
+}
